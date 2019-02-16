@@ -1,0 +1,28 @@
+a{
+	display : block;
+	width: 200px;
+	height:  200px;
+	background-color:#695123;
+	text-decoration: none;
+	color: 334455;
+	text-align: center;
+	line-height: 50px;
+	text-transform: uppercase;
+}
+a:hover{
+	color: blue;
+	background-color:#958;
+
+}
+a:active{
+	font-weight: bold;
+	color: red;
+	background-color: #75228;
+	font-size: 1.5em;
+}
+a:link{
+	background-color: #456;
+}
+a:visited{
+background-color: #green;
+}

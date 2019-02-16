@@ -1,0 +1,12 @@
+1. db.monkeys.find({weight: {$gt: 6000}})
+2. db.monkeys.find({$or: [{loves: 'apple'}, {weight: {$lt: 5000}}]})
+3. db.monkeys.find({vampires: {$exists: false}}, {_id: 0, name: 1, gender: 1})
+4. db.monkeys.aggregate([{$group: {_id: '$gender', avg_weight: {$avg: '$weight'}}}])
+5. //db.monkeys.aggregate([{$unwind: "$loves"}, {$group: {_id: "$loves"}}]) 
+6. db.monkeys.aggregate([
+	{$lookup: {from: "zoos", localField: "zoo", foreignField: "code", as: "zoo"}}, 
+	{$match: {gender: "m", "zoo.city": "Kyiv"}}, 
+	{$project: {_id: 0, name: 1}}
+])
+7.db.monkeys.update({name: "Aurora"}, {$inc: {weight: 100}})
+8.db.monkeys.update({}, {$set: {vaccinated: true}}, {upsert: false, multi: true})

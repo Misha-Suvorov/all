@@ -1,0 +1,33 @@
+a{
+	display:block;
+	width: 100px;
+	height: 100px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	line-height: 100px;
+	position: absolute;
+	color: #fff;
+	font-weight: bold;
+}
+#box1{
+	background-color: red;
+	top: 0;
+	left: 0px;
+}
+#box2{
+	background-color: blue;
+top: 0;
+	left: 25px;
+	z-index: 1;
+}
+#box3{
+	background-color: green;
+top: 0;
+	left: 50px;
+}
+#box4{
+	background-color: yellow ;
+top: 0;
+	left: 75px;
+}

@@ -1,0 +1,28 @@
+099-941-22-21
+putilov2016@gmail.com
+<h1 align="left">текст</h1>
+left  cebter right jusify.
+
+<ul>
+<li>первый елемент<li>
+<li>второй елемент<li>
+</ul>
+
+<ol>
+<li>первый елемент</li>
+<li>второй елемент</li>
+</ol>
+
+
+<ul type="тип маркера">
+disk sirkle square
+
+<ol type="1">
+1 i I a A
+
+alt-альтернативный текст
+
+
+html book.ru
+
+

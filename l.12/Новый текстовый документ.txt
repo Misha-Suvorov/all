@@ -1,0 +1,103 @@
+var number = -425;
+var string = "";
+if (number <= 0 || number >= 1000) {
+	console.log(` ${number} вне диапазона `)
+}
+else{
+if (number % 2 == 0) {
+	string = "Четное";
+}
+else{
+	string = "Нечётное";
+}
+if(number >=10 && number <= 99) {
+	string = `${string} двузначное `;
+}
+else if(number >=10 && number <=999) {
+	string = `${string} трехзначное `;
+}
+
+console.log( `${string} число`)
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+for (var i = 0; i<=10 ; i++) {
+	console.log(i);
+}
+
+
+
+var i = 0;
+while(i<=20){
+	console.log(i);
+	i++;
+}
+
+
+
+
+
+
+
+
+
+var i = 0;
+do{
+console.log(i)
+i++;
+}while(i <= 10)
+
+
+
+
+
+
+
+for(var i = 0; i < 10;i++){
+	console.log(i)
+	if(i==4){
+		console.log("Дошли до 5 - прирываем цикл");
+		i=10000;
+	}
+	
+}
+
+
+
+var k = 7;
+var n = 3;
+for (var i = 1; i <= n ;i++){
+	console.log(k)
+}
+
+
+
+
+
+
+
+
+
+var a = 4;
+var b = 6;
+var count = 0;
+for(var i = a; i <=b  ;i++){
+	console.log(i);
+	count++;
+}
+console.log('количество выведеных чисел = ${count++}');

@@ -1,0 +1,15 @@
+.article{
+	background color: green;
+}
+div.article{
+	color: blue;
+}
+p.article a{
+	text-decoration: none;
+}
+span em{
+	color: red;
+}
+.red{
+	color :red;
+}

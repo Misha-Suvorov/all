@@ -1,0 +1,14 @@
+<img src="3.jpg" border="10">
+
+<u>Текст</u>
+<h2>Текст2</h2>
+
+<a href="https://airlinegeeks.com/2015/09/11/the-777-200-a-recap-of-recent-incidents/">777</a>
+
+
+<a href="../l.2/2.jpg">rop</a>
+<img src="3.jpg">
+
+<a href="https://www.google.com.ua/?hl=ru" target="_blank"><img src="5.jpg"></a>
+
+<a name="footer"></a>

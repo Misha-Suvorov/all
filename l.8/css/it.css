@@ -1,0 +1,33 @@
+*{
+
+}
+div{
+	background-color: red;
+    height: 100px;
+    width: 100px;
+    border: 1px solid blue;
+border-bottom: 1px;
+/*text-align: center;*/
+/*line-height: 100px;*/
+/* display: inline-block; */
+overflow: hidden;
+margin: 50px 100px 150px 200px;
+	padding: 5px 10px 15px 20px;
+	/*border-radius: 20px 40px 5px 50px*/
+	border-radius: 50px;
+	box-shadow: 10px 5px 0px; }
+.brd{
+	border-bottom: 1px solid blue;
+	background-color: yellow;*
+
+}
+.box{
+	background-color: red;
+	display: none;
+}
+#myid{
+color:  #fff;
+font-size: 20px;
+background-color: green;
+display: none;
+}

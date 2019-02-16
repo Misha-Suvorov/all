@@ -1,0 +1,19 @@
+body{
+	background-image: url(../img/2.png);
+	background-repeat: no-repeat;
+	background-position: right center;
+	/*background-attachment: scroll;*/
+	 background-size: cover;
+	 
+}
+ul{
+	list-style-position:inside; 
+	/* list-style-type: circle; */
+	/* list-style-type: disc; */
+	/* list-style-type: square; */
+	/* list-style-type: decimal; */
+	/*list-style: decimal-leading-zero;*/
+	/*list-style-type: lower-alpha;*/
+	/*list-style-type: lower-greek;*/
+	/*list-style-image: url(../img/1.png);*/
+}

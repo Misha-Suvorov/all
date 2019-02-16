@@ -1,0 +1,9 @@
+a{
+	display: block;
+	width: 64px;
+	height: 64px;
+	background-image: url(../img/sprites.png);
+}
+a{
+	background-position: px px;
+}

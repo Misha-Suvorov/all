@@ -1,0 +1,103 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: Arial,Helvetica, sans-serit ;
+}
+h1{
+	margin: 0 auto;
+	font-weight: bold;
+	font-size: 72px;
+	color: #fff;
+}
+
+}
+h2{
+	font-weight: bold;
+	font-size: 32px;
+	color: #333
+}
+h3{
+	font-weight: bold;
+	font-size: 30px;
+	color: #fff;
+}
+p{
+	font-weight: normal;
+	font-size: 18px;
+	color: #333;
+}
+#header{
+	background-image: url(../LP/images/intro-bg.jpg);
+	background-attachment: fixed;
+	height: 799px;
+	text-align: center;
+	background-size: cover;
+}
+#header h1{
+	padding-top: 289px
+}
+#header h3{
+	margin-top: 16px;
+}
+#header ul li{
+list-style: none;
+float: left;
+}
+#header ul li a{
+	text-indent: -9999px;
+	text-transform: none;	
+	display: block;
+	width: 163px;
+	height:50px ;
+	position: center;
+}
+.content{
+	width: 1064px;
+	margin: 0 auto;
+}
+#footer{
+	background-image: url(../LP/images/banner-bg-u146-fr.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	height: 531px;
+}
+#footer h2{
+	color: #fff;
+	margin-top: 241px;
+	float: left;
+}
+#footer ul{
+	float: right;
+	margin-top: 241px;
+}
+#footer ul li{
+	float: left;
+	list-style: none;
+}
+#footer ul li a{
+	text-indent: -9999px;
+	text-transform: none;	
+	display: block;
+	width: 163px;
+	height: 50px;
+}
+.twitter{
+	background-image: url(../LP/images/u85.png);
+}
+.google{
+	background-image: url(../LP/images/u80.png);
+}
+.vk{
+	background-image: url(../LP/images/u90.png);
+}
+.twitter:hover{
+	background-image: url(../LP/images/u85-r.png);
+}
+.google:hover{
+	background-image: url(../LP/images/u80-r.png);
+}
+.vk:hover{
+	background-image: url(../LP/images/u90-r.png);
+}
